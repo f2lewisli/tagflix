@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Referencing local Bootstrap CSS and custom css -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">        
+        <link href="../css/custom.css" rel="stylesheet">
+
+        <title>TagFlix Style Guide</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="text-center">Dropdowns</h1>
+            <h3 class="text-center">This is TagFlix Style Guide</h3>            
+        </div>
+
+        <!-- Navigation -->
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="nav nav-pills nav-justified">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../basicUI/colors.html">Colors</a></li>
+                            <li><a href="../basicUI/typography.html">Typography</a></li>
+                            <li><a href="../basicUI/grid.html">Grid</a></li>
+                            <li><a href="../basicUI/buttons.html">Buttons</a></li>
+                            <li class="active" ><a href="../basicUI/dropdowns.html">Dropdowns</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </br>
+            </br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="nav nav-pills nav-justified">
+                            <li><a href="../basicUI/icons.html">Icons</a></li>
+                            <li><a href="../basicUI/lists.html">Lists</a></li>
+                            <li><a href="../basicUI/tooltip.html">Tooltip&Popover</a></li>
+                            <li><a href="../basicUI/Modals.html">Modals</a></li>
+                            <li><a href="../basicUI/tabs.html">Tabs&Accordions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </br>
+            </br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="nav nav-pills nav-justified">
+                            <li><a href="../basicUI/images.html">Images</a></li>
+                            <li><a href="../basicUI/badges.html">Badges&Labels</a></li>
+                            <li><a href="../basicUI/progressBars.html">Progress Bars</a></li>
+                            <li><a href="../basicUI/carousel.html">Carousel</a></li>
+                            <li><a href="../basicUI/googleMaps.html">Google Maps</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </br>
+            <hr/>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="dropdown">
+                        <div class="col-xs-2">
+                            Filter
+                        </div>
+                        <div class="col-xs-10">
+                            <button class="btn btn-default dropdown-toggle btn-square btn-block" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                                All
+                                <span class="glyphicon glyphicon-menu-down font-primary-2" aria-hidden="true"></span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-square" aria-labelled-by="dropdownMenu1">
+                                <li><a href="#">Dummy 1</a></li>
+                                <li><a href="#">Dummy 2</a></li>
+                                <li><a href="#">Dummy 3</a></li>
+                                <li><a href="#">Dummy 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="dropdown">
+                        Add to
+                        </br>
+                        <button class="btn btn-default dropdown-toggle btn-square btn-block" type="button" id="dropdownMenu2" data-toggle="dropdown">
+                            Select a collection
+                            <span class="glyphicon glyphicon-menu-down font-primary-2" aria-hidden="true"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-square" aria-labelled-by="dropdownMenu2">
+                            <li><a href="#">Dummy 1</a></li>
+                            <li><a href="#">Dummy 2</a></li>
+                            <li><a href="#">Dummy 3</a></li>
+                            <li><a href="#">Dummy 4</a></li>
+                        </ul>
+                        </br>
+                        <button type="button" class="btn btn-dafault btn-square btn-primary-2">
+                            <span class="glyphicon glyphicon-ok font-primary-2 " aria-hidden="true"></span>
+                            Add
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle btn-square btn-block" type="button" id="dropdownMenu3" data-toggle="dropdown">
+                            Related Videos
+                            <span class="glyphicon glyphicon-menu-down font-primary-2" aria-hidden="true"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-square" aria-labelled-by="dropdownMenu3">
+                            <li><a href="#">Dummy 1</a></li>
+                            <li><a href="#">Dummy 2</a></li>
+                            <li><a href="#">Dummy 3</a></li>
+                            <li><a href="#">Dummy 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-3">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle btn-square btn-block" type="button" id="dropdownMenu4" data-toggle="dropdown">
+                            Appears in
+                            <span class="glyphicon glyphicon-menu-down font-primary-2" aria-hidden="true"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-square" aria-labelled-by="dropdownMenu4">
+                            <li><a href="#">Dummy 1</a></li>
+                            <li><a href="#">Dummy 2</a></li>
+                            <li><a href="#">Dummy 3</a></li>
+                            <li><a href="#">Dummy 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </br>
+
+
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- JS CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

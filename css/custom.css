@@ -1,0 +1,307 @@
+.block 
+{
+    border: 1px dotted black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle 
+{
+    border-radius: 150px;
+    height: 150px;
+    font-weight: bold;
+    width: 150px;
+    display: table;
+    margin: 20px auto;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.circle p 
+{
+    vertical-align: middle;
+    display: table-cell;
+    color: gray;
+}
+
+.hidden
+{
+    display: none;
+}
+
+/***********************************************************************
+**
+** Colors
+**
+***********************************************************************/
+
+.color-primary
+{
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.primary-color-1
+{
+    color: #ff284e;
+    background-color:  #ff284e;
+}
+
+.primary-color-2
+{
+    color: #cac1e5;
+    background-color: #cac1e5;
+}
+
+.secondary-color-1
+{
+    color: #00d5fa;
+    background-color: #00d5fa;
+}
+
+.secondary-color-2
+{
+    color: #ff8500;
+    background-color: #ff8500;
+}
+
+.secondary-color-3
+{
+    color: #6b0824;
+    background-color: #6b0824;
+}
+
+.supporting-color-1
+{
+    color: #cecdb7;
+    background-color: #cecdb7;
+}
+
+.supporting-color-2
+{
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+.supporting-color-3
+{
+    color: #161616;
+    background-color: #161616;
+}
+
+/***********************************************************************
+**
+** Typography
+**
+***********************************************************************/
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-alt
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bg-1,
+{
+    background-color: #ffffff;
+}
+
+.bg-2
+{
+    background-color: #ff284e;
+}
+
+.bg-3
+{
+    background-color: #6b0824;
+}
+
+.bg-4
+{
+    background-color: #ff85a3;
+}
+
+.font-primary-1
+{
+    color: #161616;
+}
+
+.font-primary-2
+{
+    color: #ff284e;
+}
+
+.font-primary-3
+{
+    color: #ffffff;
+}
+
+h1
+{
+    font-size: 36px;
+}
+
+h2
+{
+    font-size: 30px;
+}
+
+h3
+{
+    font-size: 24px;
+}
+
+h4
+{
+    font-size: 18px;
+}
+
+h5
+{
+    font-size: 14px;
+}
+
+h6
+{
+    font-size: 12px;
+}
+
+.title
+{
+    font-size: 14px;
+}
+
+.subtitle
+{
+    font-size: 12px;
+}
+
+.body
+{
+    font-size: 14px;
+}
+
+.link
+{
+    font-size: 14px;
+    color: red;
+}
+
+/***********************************************************************
+**
+** Buttons
+**
+***********************************************************************/
+
+.btn-square 
+{
+  border-radius: 0px;
+}
+
+.btn-primary-1,
+.btn-active-1,
+.btn-alt-2
+{
+    background-color: #ff284e;
+    color: #ffffff;
+}
+
+.btn-primary-2
+{
+    background-color: #ffffff;
+    color: lightslategray;
+}
+
+.btn-active-2
+{
+    background-color: #ffffff;
+    color: #ff284e;
+}
+
+.btn-alt-1,
+.btn-active-3
+{
+    background-color: #ffffff;
+    color: #ff85a3
+}
+
+.btn-facebook-1,
+.btn-pinterest-1,
+.btn-instagram-1,
+.btn-twitter-1,
+.btn-envelope-1
+{
+    background-color: #ffffff;
+    color: #6b0824;
+}
+/***********************************************************************
+**
+** Dropdowns
+**
+***********************************************************************/
+
+.dropdown-square 
+{
+  border-radius: 0px;
+  border: 1px solid lightslategray;
+}
+
+/***********************************************************************
+**
+** Tabs
+**
+***********************************************************************/
+
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:hover
+{
+    border: none;
+    border-bottom-width: 4px;
+    border-bottom-color: #ff284e;
+    border-bottom-style: solid;
+    color: #ff284e;
+}
+
+
+.nav-tabs li a:hover,
+.nav-tabs li a:focus
+{
+    color: #ff284e;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-tabs li a
+{
+    color: lightslategray;
+}
+
+.nav-tabs
+{
+    border-color: #ff85a3;
+}
+
+.nav-tabs.nav-stacked li.active a,
+.nav-tabs.nav-stacked li.active a:focus,
+.nav-tabs.nav-stacked li.active a:hover
+{
+    border: none;
+    border-right-width: 4px;
+    border-right-color: #ff284e;
+    border-right-style: solid;
+    color: #ff284e;
+}
+
+.nav-tabs.nav-stacked
+{
+    border-color: #ff85a3;
+    border-bottom: none;
+    border-right-width: 1px;
+    border-right-style: solid;
+    
+}
