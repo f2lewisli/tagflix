@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <!-- Referencing local Bootstrap CSS and custom css -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">        
+        <link href="../css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="../css/font-awesome.min.css" rel="stylesheet">        
         <link href="../css/custom.css" rel="stylesheet">
 
         <title>TagFlix Component Guide</title>
@@ -70,8 +71,120 @@
         </div>
 
         <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control square" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default primary-color-1">
+                                <span class="glyphicon glyphicon-search font-primary-3" aria-hidden="true"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control square" placeholder="Email">
+                        <br/>
+                        <input type="password" class="form-control square" placeholder="Password">
+                    </div>
+                </div>
+            </div>
+            <hr/>
         
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <form action="" method="" >
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input type="text" class="form-control square" id="firstname" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" class="form-control square" id="lastname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control square" id="email" placeholder="sample@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default dropdown-toggle square" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Gender
+                                        <span class="glyphicon glyphicon-menu-down font-primary-2" aria-hidden="true"></span>
+                                    </button>
+                                    <ul class="dropdown-menu square">
+                                        <li><a href="#">Male</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Female</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date of Birth</label>
+                            UNFINISH
+                        </div>
+
+                        <div class="checkbox">
+                            <label>
+                                <div class="col-xs-1">
+                                    <input type="checkbox" value="">
+                                    <span class="cr">
+                                        <i class="cr-icon glyphicon glyphicon-ok square font-primary-2"></i>
+                                    </span>
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>
+                                        Please send me importan updates. Please send me importan updates. Please send me importan updates. 
+                                    </p>
+                                </div>
+                                
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <div class="col-xs-1">
+                                    <input type="checkbox">
+                                    <span class="cr">
+                                        <i class="cr-icon glyphicon glyphicon-ok"></i>
+                                    </span>
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>
+                                        Please send me marketing information. Please send me marketing information. Please send me marketing information.
+                                    </p>
+                                </div>
+                                
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="currentPassword">Current Password</label>
+                            <input type="password" class="form-control square" id="currentPassword">
+                        </div>
+                        <div class="form-group">
+                            <label for="newPassword">New Password</label>
+                            <input type="password" class="form-control square" id="newPassword">
+                        </div>
+                        <div class="form-group">
+                            <label for="newPasswordAgain">New Password again</label>
+                            <input type="password" class="form-control square" id="newPasswordAgain">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
         </div>
+        
+        <!-- JQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- JS CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
         
     </body>
 </html>
