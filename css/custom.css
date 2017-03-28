@@ -312,10 +312,24 @@ h6
     border-right-style: solid;
 }
 
+.navbar.navbar-default
+{
+    background-color: #ffffff;
+}
+
 #btn-signup
 {
     background-color: #ff284e;
     color: #ffffff;
+}
+
+@media (max-width: 767px) 
+{
+    div.nav > ul.nav.navbar-nav.navbar-right
+    {
+        float: left;
+    }
+
 }
 
 
