@@ -252,10 +252,13 @@ h6
 
 /***********************************************************************
 **
-** Tabs
+** Tabs & Navbar
 **
 ***********************************************************************/
 
+.nav.navbar-nav li.active a,
+.nav.navbar-nav li.active a:hover,
+.nav.navbar-nav li.active a:focus,
 .nav-tabs li.active a,
 .nav-tabs li.active a:focus,
 .nav-tabs li.active a:hover
@@ -265,17 +268,21 @@ h6
     border-bottom-color: #ff284e;
     border-bottom-style: solid;
     color: #ff284e;
+    background-color: #ffffff
 }
 
-
+.nav.navbar-nav li a:hover,
+.nav.navbar-nav li a:focus,
 .nav-tabs li a:hover,
 .nav-tabs li a:focus
 {
     color: #ff284e;
     border: none;
-    background-color: transparent;
+    background-color: #ffffff;
 }
 
+
+.nav.navbar-nav li a,
 .nav-tabs li a
 {
     color: lightslategray;
@@ -304,6 +311,13 @@ h6
     border-right-width: 1px;
     border-right-style: solid;
 }
+
+#btn-signup
+{
+    background-color: #ff284e;
+    color: #ffffff;
+}
+
 
 /***********************************************************************
 **
