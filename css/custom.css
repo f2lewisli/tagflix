@@ -200,6 +200,7 @@ h6
 .square 
 {
   border-radius: 0px;
+  -webkit-appearance: none;
 }
 
 .btn-primary-1,
@@ -238,6 +239,21 @@ h6
     background-color: #ffffff;
     color: #6b0824;
 }
+
+.bootstrap-select.btn-group .dropdown-toggle .caret 
+{
+    width: 10px;
+    height: 10px;
+    border: none;
+    font-family: 'Glyphicons Halflings';
+}
+
+    .bootstrap-select.btn-group .dropdown-toggle .caret:before 
+    {
+        content: "\e259";
+        color: #ff284e;
+        background-color: transparent;
+    }
 /***********************************************************************
 **
 ** Dropdowns
@@ -336,14 +352,16 @@ h6
 /***********************************************************************
 **
 ** Forms
-** Checkbox,
+** Checkbox, datepicker
 **
 ***********************************************************************/
 
+div.form-group + select.form-control,
 .form-control,
 .form-control + span .btn
 {
     border-radius: 0;
+    -webkit-appearance: none;
 }
 
 .checkbox .cr
@@ -397,6 +415,9 @@ h6
     {
         opacity: .5;
     }
+
+
+
 
 /***********************************************************************
 **
